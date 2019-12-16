@@ -14,6 +14,5 @@ while (condi) {
         condi = false;
         console.log(value);
     }
-
     value++
 }
