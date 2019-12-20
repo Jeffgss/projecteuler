@@ -10,7 +10,6 @@ while (num < total) {
         if (num % count === 0) {
             primeFlag = false;
             break;
-
         }
     }
     if (primeFlag) {
