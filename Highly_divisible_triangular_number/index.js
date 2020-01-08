@@ -16,7 +16,7 @@ while (objetivo === false) {
     let triangular = contador * (contador + 1) / 2;
     if (verificaSeExiste500Divisores(triangular)) {
         objetivo = true;
-        console.log(`Cheguei ao objetivo, o número ${triangular} é o primeiro triagular a ter ${limiteDivisores} divisores`);
+        console.log(`Cheguei ao objetivo, o número ${triangular} é o primeiro triagular a ter ${limiteDivisores} divisores.`);
     }
     contador++;
 }

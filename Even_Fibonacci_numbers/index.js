@@ -8,6 +8,7 @@ while(n3 < 10 ){
     n3++;
     n1++;
 }
+console.log(n2);
 const soma = n2.reduce((acc, valueAtual ) => {
     if( valueAtual % 2 === 0) return acc + valueAtual;
     return acc;
