@@ -1,6 +1,6 @@
+const limiteDivisores = 500;
 let objetivo = false;
 let contador = 1;
-const limiteDivisores = 500;
 
 function verificaSeExiste500Divisores(numero) {
     let divisores = 0;
